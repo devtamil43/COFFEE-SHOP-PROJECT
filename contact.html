@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Tamilarasu">
+    <meta name="Description" content="Contact Form for Lovely Coffee Shop">
+    <title>Contact us -LCS</title>
+    <link rel="icon" href="logo.png" type="image/x-icon" >
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <header id="top">
+        <h1>Contact Us</h1>
+        <nav id="aria-navigation">
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/#about">About LCS</a>
+                </li>
+                
+                <li>
+                    <a href="/#menu">Our Menu</a>
+                </li>
+                
+                <li>
+                    <a href="Hours.html">Store Hours</a>
+                </li>
+                
+                
+            </ul>
+        </nav>
+        <figure>
+            <img src="coffee3.jpg" alt="Coffee Image"  width="300" height="300" title="Indulge In favour">
+            <figcaption>
+                Workers are the BackBone of The Business
+            </figcaption>
+        </figure>
+        
+    </header>
+    <hr>
+    <main>
+        <!--   Our Content    -->
+        <article>
+            <h2>Our Contact Form</h2>
+            <form action="https://httpbin.org/get" method="get">
+                
+                <fieldset>
+                    <legend>Send us a Message</legend>
+                    <p>
+                        <label for="Name">Name:</label>
+                        <input type="text" name="Name" id="Name" placeholder="Yourname" required>
+                    </p>
+                    <p>
+                        <label for="Email">Email:</label>
+                        <input type="text" name="Email" id="Email" placeholder="Youremail" required>
+                    </p>
+                    
+                    <label for="Message">Your Message:</label><br>
+                    <textarea id="Message" rows="10" cols="30" placeholder="Type your Message here"></textarea>
+                </fieldset>
+                
+                <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+            <h2>Our location</h2>
+            <address>
+                10 uppiliplalayam road,<br>
+                kamaraj nagar medu,<br>
+                chennimalai Erode-63805 <br><br>
+
+                phone: <a href="tel:+9788903133">9788903133</a><br><br>
+            </address>
+            
+           <a href="#top">Back to top</a> 
+        </article>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright &copy; The Lovely Coffee Shop</p>
+    </footer>
+    
+    
+</body>
+</html>
